@@ -55,6 +55,10 @@ table{
 }
 
 input[type='text']{
+    background-image: url(person.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10%;
     outline: none;
     width: 250px;
     padding: 10px;
@@ -62,9 +66,24 @@ input[type='text']{
     border: 2px solid rgb(10, 110, 110);
     margin: 10px0;
     margin-top: 30px;
+    font-family: "Dual";
+    padding-left: 45px;
+}
+
+input[type='text']::-webkit-input-placeholder{
+    color: rgb(210, 216, 219);
+    padding-left: 3px;
+}
+
+input[type='text']:focus{
+    border: 2px solid rgb(10, 58, 58);
 }
 
 input[type='password']{
+    background-image: url(pass.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10%;
     outline: none;
     width: 250px;
     padding: 10px;
@@ -72,6 +91,17 @@ input[type='password']{
     border: 2px solid rgb(10, 110, 110);
     margin: 10px0;
     margin-top: 30px;
+    padding-left: 45px;
+    font-family: "Dual";
+}
+
+input[type='password']::-webkit-input-placeholder{
+    color: rgb(210, 216, 219);
+    padding-left: 3px;
+}
+
+input[type='password']:focus{
+    border: 2px solid rgb(10, 58, 58);
 }
 
 .img1{
