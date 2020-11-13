@@ -23,6 +23,15 @@ h1{
     font-family: "Dual";
     margin-left: 700px;
     color: rgb(184, 172, 172);
+    text-decoration: none;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline rgb(184, 172, 172);
 }
 
 .pag2{
