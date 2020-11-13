@@ -58,6 +58,8 @@ nav{
     padding-top: 15px;
     position: sticky;
     top: 0;
+    box-shadow: 1px 1px 1px rgb(10, 110, 110);
+    padding-bottom: 7px;
 }
 
 nav ul{
