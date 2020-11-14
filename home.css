@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "Dual";
+  src: url(Dual-300.otf);
+}
+
 body{
 margin: 0;
 padding: 0;
-font-family: sans-serif;
+font-family: "Dual";
 background-image: url('bgHomee.png');
 background-size:cover;
 background-repeat: no-repeat;
