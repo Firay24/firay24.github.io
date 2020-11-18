@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Dual";
+  src: url(Dual-300.otf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Dual";
+  background-color: rgba(65, 16, 16, 0);
+  height:3300px ;
+  width: 100%;
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+  overflow: hidden;
+  background: url(bgberanda.png);
+  box-shadow: 1px 1px 1px rgb(10, 110, 110);
+}
+
+li {
+  float: left;
+  font-size: 120%;
+  text-align: center;
+  margin: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  rgb(10, 110, 110);
+  color: black;
+}
+
+.logo{
+  filter: drop-shadow(0px 2px 1px black);
+  margin: auto;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.active {
+  background-color:  rgb(10, 110, 110);
+  color: black;
+}
+.active2 {
+  background-color:  rgb(10, 110, 110);
+  color: black;
+}
+
+.box{
+  width: 100%;
+  height: 800px;
+  background-image: url('bg-null1.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.box p{
+  color: #bdbdbd;
+  font-size: 155%;
+  font-weight: 100;
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+.box1{
+  width: 100%;
+  height: 800px;
+  background-image: url('bg-null2.png');
+  background-size:cover;
+  background-repeat: no-repeat;   
+}
+.box1 p{
+  color: #bdbdbd;
+  font-size: 155%;
+  font-weight: 100;
+  text-align: left;
+  position: absolute;
+  top: 200%;
+  left: 15%;
+
+}
+.box2{
+  width: 100%;
+  height: 800px;
+  background-image: url('bg-null3.png');
+  background-size:cover;
+  background-repeat: no-repeat;   
+}
+.box2 p{
+  color: #bdbdbd;
+  font-size: 155%;
+  font-weight: 100;
+  text-align: left;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+}
+.box3{
+  width: 100%;
+  height: 800px;
+  background-image: url('bg-null4.png');
+  background-size:cover;
+  background-repeat: no-repeat;   
+}
+.box3 p{
+  color: #bdbdbd;
+  font-size: 155%;
+  font-weight: 100;
+  text-align: left;
+  position: absolute;
+  top: 430%;
+  left: 50%;
+}
