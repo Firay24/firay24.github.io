@@ -38,21 +38,29 @@ p a:hover{
     text-decoration: underline rgb(184, 172, 172);
 }
 
-.pag3{
+.tabel-form form table {
+    float: right;
+    margin-right: 200px;
+}
+
+/* .tabel-form form table tr td .pag3{
     font-family: "Dual";
-    margin-left: 985px;
     color: rgb(10, 110, 110);
     font-size: 15px;
     font-style: oblique;
+    margin-right: 100px;
 }
 
 .pag4{
     font-family: "Dual";
-    margin-left: 930px;
-    margin-top: 80px;
     color: rgb(10, 110, 110);
     font-size: 15px;
 }
+
+.img1{
+    width: 6%;
+    height: 6%;
+} */
 
 input[type='text']{
     background-image: url(../image/person.png);
@@ -102,17 +110,6 @@ input[type='password']:focus{
     border: 2px solid rgb(10, 58, 58);
 }
 
-.img1{
-    margin-left: 968px;
-    width: 6%;
-    height: 6%;
-}
-
-.tabel-form form table {
-    float: right;
-    margin-right: 200px;
-}
-
 .tabel-form form table tr td p{
     font-family: "Dual";
     padding-top: 10px;
@@ -123,11 +120,9 @@ input[type='password']:focus{
 .tabel-form form table tr td button{
     margin-top: 50px;
     margin-bottom: 40px;
+    margin-right: 130px;
 }
 
-.tab1{
-    margin-top: 15px;
-}
 button{
     float: right;
     margin-right: 120px;
