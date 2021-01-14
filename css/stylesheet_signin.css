@@ -38,17 +38,9 @@ p a:hover{
     text-decoration: underline rgb(184, 172, 172);
 }
 
-.pag2{
-    font-family: "Dual";
-    margin-left: 885px;
-    color: rgb(184, 172, 172);
-    font-size: 15px;
-}
-
 .pag3{
     font-family: "Dual";
     margin-left: 985px;
-    margin-top: 30px;
     color: rgb(10, 110, 110);
     font-size: 15px;
     font-style: oblique;
@@ -72,7 +64,7 @@ input[type='text']{
     padding: 10px;
     border-radius: 20px;
     border: 2px solid rgb(10, 110, 110);
-    margin-top: 30px;
+    margin-top: 80px;
     font-family: "Dual";
     padding-left: 45px;
 }
@@ -116,16 +108,29 @@ input[type='password']:focus{
     height: 6%;
 }
 
-/* .form {
+.tabel-form form table {
     float: right;
-    margin-right: 100px;
-} */
+    margin-right: 200px;
+}
+
+.tabel-form form table tr td p{
+    font-family: "Dual";
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(119, 117, 117);
+}
+
+.tabel-form form table tr td button{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
 .tab1{
     margin-top: 15px;
 }
 button{
-    margin-left: 100px;
+    float: right;
+    margin-right: 120px;
     background-color: rgb(10, 110, 110);
     border: none;
     padding: 10px;
