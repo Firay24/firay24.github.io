@@ -1,0 +1,150 @@
+body{
+  background-image: url(../image/sign\ in.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+@font-face {
+  font-family: "Dual";
+  src: url(../font/Dual-300.otf);
+}
+
+h1{
+  margin-top: 20px;
+  font-family: "Dual";
+  margin-left: 840px;
+  color: rgb(10, 110, 110);
+}
+
+.pag1{
+  margin-top: 50px;
+  font-family: "Dual";
+  margin-left: 950px;
+  color: rgb(10, 110, 110);
+}
+
+.pag2{
+  font-family: "Dual";
+  margin-left: 950px;
+  color: rgb(184, 172, 172);
+  font-size: 15px;
+}
+
+.pag3{
+  font-family: "Dual";
+  margin-left: 1010px;
+  margin-top: 30px;
+  color: rgb(10, 110, 110);
+  font-size: 15px;
+  font-style: oblique;
+}
+
+table{
+  margin-left: 890px;
+  margin-top: 15px;
+}
+
+.img1{
+  margin-left: 990px;
+  width: 6%;
+  height: 6%;
+}
+
+input[type='email']{
+  background-image: url(../image/email.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 10%;
+  outline: none;
+  width: 220px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(10, 110, 110);
+  margin: 10px0;
+  margin-top: 20px;
+  font-family: "Dual";
+  padding-left: 45px;
+}
+
+input[type='email']::-webkit-input-placeholder{
+  color: rgb(210, 216, 219);
+  padding-left: 3px;
+}
+
+input[type='email']:focus{
+  border: 2px solid rgb(10, 58, 58);
+}
+
+input[type='text']{
+  background-image: url(../image/person.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 10%;
+  outline: none;
+  width: 220px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(10, 110, 110);
+  margin: 10px0;
+  margin-top: 20px;
+  font-family: "Dual";
+  padding-left: 45px;
+}
+
+input[type='text']::-webkit-input-placeholder{
+  color: rgb(210, 216, 219);
+  padding-left: 3px;
+}
+
+input[type='text']:focus{
+  border: 2px solid rgb(10, 58, 58);
+}
+
+input[type='password']{
+  background-image: url(../image/pass.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 10%;
+  outline: none;
+  width: 220px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(10, 110, 110);
+  margin: 10px0;
+  margin-top: 20px;
+  font-family: "Dual";
+  padding-left: 45px;
+}
+
+input[type='password']::-webkit-input-placeholder{
+  color: rgb(210, 216, 219);
+  padding-left: 3px;
+}
+
+input[type='password']:focus{
+  border: 2px solid rgb(10, 58, 58);
+}
+
+button{
+  margin-left: 100px;
+  background-color: rgb(10, 110, 110);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  color: white;
+  font-family: "Dual";
+  outline: none;
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline rgb(10, 110, 110);
+}
