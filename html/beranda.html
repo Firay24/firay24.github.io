@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSI</title>
     <link rel="stylesheet" href="../css/stylesheet_beranda.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <script src="../javascript/jquery-1.12.4.js"></script>
+    <script src="../javascript/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#dialog" ).dialog();
+    } );
+    </script>
 </head>
 
 <body>
+    <div id="dialog" title="Welcome!">
+      <h1>Selamat Datang di Website Serigala Sistem Informasi!</h1>
+      <p>klik tombol &apos;x&apos; untuk menutup dialog</p>
+    </div>
     <div class="header">
         <div class="header-logo">
             <ul>
