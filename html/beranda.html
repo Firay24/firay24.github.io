@@ -35,16 +35,9 @@
         <div class="header-list">
             
             <ul>
-                <li class="down">
-                    <a href=""><img class="im5" src="../image/profil.png" alt=""></a>
-                    <ul class="dropdown">
-                        <li><a href=""><img class="" src="../image/person.png" alt=""></a></li>
-                        <li><a href=""><img class="" src="../image/setting.png" alt=""></a></li>
-                        <li><a href=""><img class="im5" src="../image/logout.png" alt=""></a></li>
-                    </ul>
-                </li>
-                <li><a href="./team.html"><img class="im4" src="../image/icGrup.png" alt=""></a>
-                <li><a href=""><img class="im3" src="../image/notif.png" alt=""></a></li>
+                <li id="profil"><a href=""><img class="im5" src="../image/profil.png" alt=""></a></li>
+                <li><a href="./team.html"><img class="im4" src="../image/icGrup.png" alt=""></a></li>
+                <li><a href="#" class="im3" id="im3"><img class="im3" src="../image/notif.png" alt=""></a></li>
                 <li><a href="./beranda.html"><img class="im2" src="../image/idHome.png" alt=""></a></li>
             </ul>
         </div>
@@ -76,6 +69,24 @@
             <img src="../image/butto.png" alt="" width="50" height="50">
         </div>
     </div>
+    <div class="uppop">
+        <div class="uppop-content">
+            <h1>PEMBERITAHUAN</h1>
+            <img src="../image/cancel.png" class="close">
+            <p>Maaf Anda belum memiliki pemberitahuan</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById("im3").addEventListener("click", tampil);
+        function tampil(){
+            document.querySelector(".uppop").style.display = "flex";
+        }
+
+        document.querySelector(".close").addEventListener("click", sembunyi)
+        function sembunyi(){
+            document.querySelector(".uppop").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
