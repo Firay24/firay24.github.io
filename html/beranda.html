@@ -35,7 +35,7 @@
         <div class="header-list">
             
             <ul>
-                <li id="profil"><a href=""><img class="im5" src="../image/profil.png" alt=""></a></li>
+                <li><a href="#" class="im5" id="im5"><img class="im5" src="../image/profil.png" alt=""></a></li>
                 <li><a href="./team.html"><img class="im4" src="../image/icGrup.png" alt=""></a></li>
                 <li><a href="#" class="im3" id="im3"><img class="im3" src="../image/notif.png" alt=""></a></li>
                 <li><a href="./beranda.html"><img class="im2" src="../image/idHome.png" alt=""></a></li>
@@ -76,6 +76,23 @@
             <p>Maaf Anda belum memiliki pemberitahuan</p>
         </div>
     </div>
+    <div class="menuProfil">
+        <div class="profil-content">
+            <img src="../image/cancel.png" class="cancel">
+            <div class="profilInfo">
+                <img src="../image/person.png">
+                <p>Lihat Profil</p>
+            </div>
+            <div class="setting">
+                <img src="../image/setting.png" alt="">
+                <p>Pengaturan</p>
+            </div>
+            <div class="logout">
+                <img id="out" src="../image/logout.png" alt="">
+                <p id="out2">Keluar</p>
+            </div>
+        </div>
+    </div>
     <script>
         document.getElementById("im3").addEventListener("click", tampil);
         function tampil(){
@@ -85,6 +102,22 @@
         document.querySelector(".close").addEventListener("click", sembunyi)
         function sembunyi(){
             document.querySelector(".uppop").style.display = "none";
+        }
+
+        document.getElementById("out").addEventListener("click", keluar);
+        document.getElementById("out2").addEventListener("click", keluar)
+        function keluar(){
+            window.location = "../html/index.html"
+        }
+
+        document.getElementById("im5").addEventListener("click", tampilProfil);
+        function tampilProfil(){
+            document.querySelector(".menuProfil").style.display = "flex";
+        }
+
+        document.querySelector(".cancel").addEventListener("click", sembunyiProfil)
+        function sembunyiProfil(){
+            document.querySelector(".menuProfil").style.display = "none";
         }
     </script>
 </body>
